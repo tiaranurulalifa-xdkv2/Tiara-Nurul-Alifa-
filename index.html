@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Website portofolio awal siswa kelas X SMK.">
+  <title>Portofolio Siswa X | Tiara Nurul Alifa</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header" id="home">
+    <nav class="navbar container" aria-label="Navigasi utama">
+      <a class="brand" href="#home" aria-label="Beranda">Tiara<span>.</span></a>
+
+      <button class="menu-toggle" id="menuToggle" type="button" aria-label="Buka menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#tentang">Tentang Saya</a>
+        <a href="#profil">Profil</a>
+        <a href="#minat">Minat</a>
+        <a href="#cita-cita">Cita-Cita</a>
+      </div>
+
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Ubah tema">🌙</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-photo-wrap">
+          <div class="photo-decoration"></div>
+          <img id="heroPhoto" class="profile-photo" src="" alt="Foto profil siswa">
+          <div class="photo-badge">✨ Siswa Kelas X</div>
+        </div>
+
+        <div class="hero-content">
+          <p class="eyebrow">Halo, saya 👋</p>
+          <h1 id="heroName">NAMA LENGKAP</h1>
+          <p class="nickname">Panggilan: <strong id="heroNickname">NAMA PANGGILAN</strong></p>
+          <div class="hero-tags">
+            <span id="heroClass">KELAS</span>
+            <span id="heroMajor">JURUSAN/PROGRAM KEAHLIAN</span>
+            <span id="heroConcentration">KONSENTRASI/KOMPETENSI KEAHLIAN</span>
+          </div>
+          <blockquote id="heroMotto">“MOTTO/TAGLINE”</blockquote>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#tentang">Tentang Saya</a>
+            <a class="btn btn-secondary" href="#profil">Lihat Profil</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="tentang">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Kenalan lebih dekat</p>
+          <h2>Tentang Saya</h2>
+        </div>
+        <div class="about-card">
+          <div class="about-icon">🌱</div>
+          <div>
+            <p id="aboutDescription">DESKRIPSI DIRI</p>
+            <p class="about-note" id="aboutText">TENTANG SAYA</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="profil">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Profil belajar</p>
+          <h2>Profil Siswa</h2>
+        </div>
+        <div class="profile-grid">
+          <article class="info-card"><span>🎒</span><h3>Kelas</h3><p id="profileClass">KELAS</p></article>
+          <article class="info-card"><span>📚</span><h3>Jurusan</h3><p id="profileMajor">JURUSAN/PROGRAM KEAHLIAN</p></article>
+          <article class="info-card"><span>🧩</span><h3>Konsentrasi Keahlian</h3><p id="profileConcentration">KONSENTRASI/KOMPETENSI KEAHLIAN</p></article>
+          <article class="info-card"><span>🎯</span><h3>Minat</h3><p id="profileInterest">MINAT</p></article>
+          <article class="info-card"><span>🎨</span><h3>Hobi</h3><p id="profileHobby">HOBI</p></article>
+          <article class="info-card"><span>💡</span><h3>Ingin Dipelajari</h3><p id="profileLearning">BIDANG YANG INGIN DIPELAJARI</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="minat">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Eksplorasi diri</p>
+          <h2>Minat & Hal yang Ingin Dipelajari</h2>
+        </div>
+        <div class="interest-panel">
+          <div>
+            <span class="big-icon">🔎</span>
+            <h3 id="interestTitle">MINAT</h3>
+            <p>Hal-hal yang membuat saya tertarik untuk terus mencoba dan berkembang.</p>
+          </div>
+          <div>
+            <span class="big-icon">🚀</span>
+            <h3 id="learningTitle">BIDANG YANG INGIN DIPELAJARI</h3>
+            <p>Langkah kecil hari ini menjadi bekal untuk perjalanan belajar berikutnya.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section dream-section" id="cita-cita">
+      <div class="container">
+        <div class="dream-card">
+          <div class="dream-icon">🌟</div>
+          <p class="eyebrow">Mimpi yang ingin diwujudkan</p>
+          <h2 id="dreamText">CITA-CITA</h2>
+          <p>Terus belajar, berani mencoba, dan menikmati proses untuk mendekati cita-cita.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section editor-section" id="edit">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Kelola profil</p>
+          <h2>Edit Profil</h2>
+          <p>Ubah data di bawah ini. Preview akan berubah langsung sebelum disimpan.</p>
+        </div>
+
+        <form id="profileForm" class="edit-form">
+          <div class="form-grid">
+            <label>Nama Lengkap
+              <input id="inputName" type="text" placeholder="NAMA LENGKAP" autocomplete="name">
+            </label>
+            <label>Nama Panggilan
+              <input id="inputNickname" type="text" placeholder="NAMA PANGGILAN">
+            </label>
+            <label>Foto Profil
+              <input id="inputPhoto" type="file" accept="image/*">
+              <small>Pilih foto dari perangkat. Foto disimpan di browser ini.</small>
+            </label>
+            <label>Kelas
+              <input id="inputClass" type="text" placeholder="KELAS">
+            </label>
+            <label>Jurusan / Program Keahlian
+              <input id="inputMajor" type="text" placeholder="JURUSAN/PROGRAM KEAHLIAN">
+            </label>
+            <label>Konsentrasi / Kompetensi Keahlian
+              <input id="inputConcentration" type="text" placeholder="KONSENTRASI/KOMPETENSI KEAHLIAN">
+            </label>
+            <label class="full">Tentang Saya
+              <textarea id="inputAbout" rows="3" placeholder="TENTANG SAYA"></textarea>
+            </label>
+            <label class="full">Deskripsi Diri
+              <textarea id="inputDescription" rows="4" placeholder="DESKRIPSI DIRI"></textarea>
+            </label>
+            <label>Motto / Tagline
+              <input id="inputMotto" type="text" placeholder="MOTTO/TAGLINE">
+            </label>
+            <label>Minat
+              <input id="inputInterest" type="text" placeholder="MINAT">
+            </label>
+            <label>Hobi
+              <input id="inputHobby" type="text" placeholder="HOBI">
+            </label>
+            <label>Bidang yang Ingin Dipelajari
+              <input id="inputLearning" type="text" placeholder="BIDANG YANG INGIN DIPELAJARI">
+            </label>
+            <label class="full">Cita-Cita
+              <input id="inputDream" type="text" placeholder="CITA-CITA">
+            </label>
+          </div>
+
+          <div class="form-actions">
+            <button class="btn btn-primary" type="submit">💾 Simpan</button>
+            <button class="btn btn-secondary" id="cancelEdit" type="button">↩️ Kembali</button>
+            <button class="btn btn-danger" id="resetData" type="button">🗑️ Reset</button>
+          </div>
+          <p class="save-message" id="saveMessage" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <button class="back-top" id="backTop" type="button" aria-label="Kembali ke atas">↑</button>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Portofolio Siswa Kelas X. Dibuat dengan semangat belajar ✨</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+          </html>
